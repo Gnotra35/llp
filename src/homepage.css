@@ -1,0 +1,380 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(209, 209, 209);;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  padding-bottom: 0px;
+}
+
+.navbar-logo img {
+  height: 150px;
+  color:black; 
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: blue;
+}
+
+/* New Section styles */
+/* Adjusted styles for New Section */
+
+.new-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 150px; 
+  background-color: #7c8a97;
+  border-top: 1px solid #e7e7e7;
+  height: 350px; /* Ensure the section takes full height of the viewport */
+}
+
+.new-section-left {
+  max-width: 40%;
+}
+
+.new-section-left h1 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 30px;
+  line-height: 1.5; 
+}
+
+.new-section-left p {
+  margin: 5px 0 0;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.new-section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally within the right section */
+  justify-content: center; /* Center items vertically within the right section */
+  margin-right: 100px;
+}
+
+.new-section-right button {
+  width: 100%; /* Ensure equal width */
+  margin: 20px 0; 
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  background-color: rgb(226, 226, 99);
+  color: white;
+  border-radius: 5px;
+}
+
+.new-section-right button:hover {
+  background-color: #0056b3;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Footer styles */
+.footer {
+  .footer {
+    display: flex;
+    justify-content: space-arround;
+    background-color: rgb(100, 87, 87);
+    color: white;
+    padding-bottom:0px;
+}
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+  padding-left:70px;
+}
+
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.icon-container {
+  display: grid;
+ 
+  align-items: center; 
+}
+
+.icon-container img {
+  padding: 0px;
+  width: 100px; 
+  height: 100px; 
+  margin:10px; 
+}
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood; /* Light gray background */
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.copyright-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.copyright-content p {
+  margin: 0;
+}
+
+.copyright-content .copyright-text {
+  margin-right: auto;
+}
+
+.copyright-content .privacy-terms {
+  margin-left: auto;
+}
+
+/* Journals Section */
+.journals-section {
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: #f9f9f9;
+}
+
+.journals-section h1 {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  background-color: rgb(151, 172, 180);
+  padding-bottom: 10px;
+}
+
+.journals-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.journal {
+  flex: 1 1 calc(33.333% - 20px);
+  margin-top: 0px;
+  background-color: white;
+  margin-left: 30px;
+}
+
+.journal img {
+  width: 163px;
+  height: 206px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.journal-info {
+  text-align: left;
+}
+
+.journal-info h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.journal-info p {
+  margin: 30px 0;
+}
+
+.journal-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.journal-info a:hover {
+  text-decoration: underline;
+}
+
+/* Recent Publications and News & Release Section */
+.recent-publications-section,
+.news-release-section {
+  margin-top:60px;
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  overflow-y: auto; 
+  max-height: 400px; 
+  
+  
+}
+.recent-publications-section{
+  margin-left:80px;
+  margin-right:0px;
+background-color: whitesmoke;
+}
+.recent-publications-section h1,
+.news-release-section h1 {
+  text-align: left;
+  padding-left: 20px;
+  
+  background-color: rgb(151, 172, 180);
+  padding-bottom: 10px;
+  margin-top:0px;
+
+}
+
+.publications-container,
+.news-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.publication{
+
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex; 
+}
+
+.publication-image {
+  flex: 0 0 30%; 
+  height:285px;
+}
+
+.publication-image img {
+  width: 100%; 
+  border-radius: 8px;
+}
+.publication-info button {
+  background-color: #476f97;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+}
+
+.publication-info button:hover {
+  background-color: #365a7f;
+}
+.publication-info {
+  flex: 1; 
+  padding-left: 40px;
+   margin-top:40px; 
+}
+
+.publication-info h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.publication-info p {
+  margin: 10px 0;
+}
+
+.news-release-section {
+  
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; 
+  margin-left:20px;
+  margin-right:100px; 
+}
+
+.news-container {
+  margin-top: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .journals-container,
+  .publications-container,
+  .news-container {
+    flex-direction: column;
+  }
+  .journal,
+  .publication,
+  .news-item {
+    flex: 1 1 100%;
+  }
+  .recent-news-section {
+    flex-direction: column;
+  }
+}
